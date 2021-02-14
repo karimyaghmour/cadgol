@@ -1,14 +1,14 @@
 cadgol -- a cad-native modeling language
 ========================================
 
-Modeling real-world objects with computers traditionally requires using
+Modeling real-world objects with computers traditionnally requires using
 graphical user interfaces to design, model and simulate such objects and their
 interactions and reactions to external objects and forces. Such an approach is,
 at first, intuitive since the designer is visually interacting and "crafting"
 the object as they go. As explained by Jessie Frazelle
 [here](https://github.com/EmbeddedVentures/community), there are limits to this
 approach and there's a need for a programming-like language for the creation of
-complex shapes using text-based entry similar to a software development
+complexe shapes using text-based entry similar to a software development
 process.
 
 Unfortunately, such a language doesn't presently exist. Or, at the very least,
@@ -54,7 +54,7 @@ objects in a fashion that fully encompasses their functionality in the same was
 a modern day CAD tool would?
 
 It turns out that not only such a thing exists, but it's been being worked on
-for a few hundred years and is likely one of the most important pillars of the
+for a few hundred years and is likely one of the most important pilars of the
 world economy. What could that possibly be you ask? Well, simply put,
 ... patents and, more specifically, the language of patent claims. The fact of
 the matter is that in order to be granted, patent claims **must** describe an
@@ -133,7 +133,7 @@ object with color, mass, thermal conductivity, electrical connectivity, Young's
 modulus, bending stiffness, etc. An individual object is likely made of a single
 material (otherwise use the `composite.` library ;) ), although a complex object
 could be made of several parts made of several differently-typed components. In
-this case, the chair is made of Honduran Mahogany, and it's assumed that the
+this case, the chair is made of Honduran Mohogany, and it's assumed that the
 components included didn't themselves already have materials specified for
 them. Hence, we can separate describing a part in mathematical terms from the
 type of material that's used to make it.
@@ -214,14 +214,14 @@ used used to specify the object or we could leave it open for inclusion of
 hand-drawn objects in some IDE such as the ones provided by classic CAD
 tools. This would be similar to the way Verilog/VHDL enable including
 parts/components/libraries which are "hand drawn" to a given manufacturing
-process and **aren't** themselves expressed using RTL.
+process and **arent't** themselves expressed using RTL.
 
 The legs and back could also be specified similarly in chair/leg.cgol and
-chair/back.cgol using modelededas() statements such as the above. Entire
+chiar/back.cgol using modelededas() statements such as the above. Entire
 libraries could then be created for providing different parts of parts ready to
 be assembled into larger objects. Again, those individual parts many not
 themselves have materials or dimensions specified for them, just mathematical
-formulas or a set of spatially-located interconnected points in the case of
+formulas or a set of spacially-located interconnected points in the case of
 externally drawn items.
 
 Tooling
