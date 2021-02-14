@@ -77,8 +77,8 @@ work to be done in specifying semantics, conventions and validating the
 usefulness and feasibility of such an approach. Nevertheless, here is what's
 proposed as being "cadgol", a cad-native modeling language.
 
-cadgol example:
-===============
+cadgol example
+--------------
 
 Let's start with a cadgol "Hello World!". Here's a mahogany chair in cadgol:
 
@@ -225,7 +225,7 @@ formulas or a set of spacially-located interconnected points in the case of
 externally drawn items.
 
 Tooling
-=======
+-------
 
 As a starting point, a language such as the above should be compilable into the
 file formats used by existing CAD software such as SolidWorks, FreeCAD,
@@ -251,7 +251,7 @@ up as:
 ```
 
 Misc.
-=====
+-----
 
 This proposal obviously only scratches the surface. There's much to be done to
 fully specify what a language such as cadgol should/could do. There's nothing
@@ -259,7 +259,7 @@ here specifying constraints for movement. That too, however, can heavily borrow
 from patent-like terminology to describe movement.
 
 Open invitation
-===============
+---------------
 
 I'd like to thank Jessie Frazelle for having taken the time to properly phrase
 the problem that needed to be solved in the post mentioned above. I've had this
